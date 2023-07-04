@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+/*
+body {
+  background: green;
+}*/
+
+/* below is the divider for the bottom of the header*/
+.custom-shape-divider-top-1688466610 {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1688466610 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 55px;
+}
+
+.custom-shape-divider-top-1688466610 .shape-fill {
+  fill: #ffffff;
+}
+
+/* below is the divider for the bottom of the banner*/
+
+.custom-shape-divider-bottom-1688468098 {
+  margin: -60px auto;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1688468098 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 64px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1688468098 .shape-fill {
+  fill: #ffffff;
+}
+
+/* video divider1*/
+#videoDivider1 {
+  width: 100%;
+}
+
+/* below is the divider for the bottom of the dive center booking*/
+
+.custom-shape-divider-top-1688486634 {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1688486634 svg {
+  position: relative;
+  display: block;
+  width: calc(154% + 1.3px);
+  height: 18px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1688486634 .shape-fill {
+  fill: #ffffff;
+}
+
+/*bottom video container 1 divider*/
+
+.custom-shape-divider-bottom-1688486707 {
+  position: absolute;
+  margin: -60px auto;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1688486707 svg {
+  position: relative;
+  display: block;
+  width: calc(154% + 1.3px);
+  height: 62px;
+}
+
+.custom-shape-divider-bottom-1688486707 .shape-fill {
+  fill: #ffffff;
+}

@@ -1,0 +1,42 @@
+#header {
+  background: #24a7c7;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+#headerTextContainer {
+  color: white;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  z-index: 2;
+  padding-top: 50px;
+  top: 25px;
+  width: 100%;
+}
+
+#headerBottom {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+}
+
+#locations,
+#subtitle,
+#about,
+#learnMoreButton {
+  margin: 25px auto;
+}
+
+#about {
+  text-align: left;
+}
+
+#learnMoreButton {
+  padding: 10px 20px;
+  border-radius: 15px;
+  background: transparent;
+  color: white;
+  border: 1px white solid;
+}

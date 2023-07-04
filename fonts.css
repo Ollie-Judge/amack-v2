@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Nemo";
+  src: local("Nemo"), url(./resources/LostFish-5DOz.ttf) format("truetype");
+}
+
+#title {
+  font-family: "Nemo";
+  text-decoration: "underline";
+}

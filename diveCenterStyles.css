@@ -1,0 +1,22 @@
+#diveCenterBookingContatiner {
+  margin: 25px auto;
+}
+
+#diveCenterForm {
+  margin: auto auto 50px;
+  width: 80%;
+  padding: 25px auto;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+#diveCentername {
+  margin-top: 25px;
+}
+
+#diveCentername,
+#diveCenterDate,
+#diveSubmit {
+  display: block;
+  margin: 10px auto;
+}
