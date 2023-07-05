@@ -16,6 +16,12 @@
   width: 100%;
 }
 
+#headerTextContentContainer {
+  margin: 75px auto auto;
+  text-align: left;
+  width: 50%;
+}
+
 #headerBottom {
   position: relative;
   margin: -1px auto;
@@ -28,9 +34,6 @@
 #about,
 #learnMoreButton {
   margin: 25px auto;
-}
-
-#about {
   text-align: left;
 }
 
