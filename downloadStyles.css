@@ -4,6 +4,11 @@
   padding-bottom: 75px;
 }
 
+#downloadText1,
+#downloadText2 {
+  margin: 25px auto;
+}
+
 #phoneImage {
   height: 250px;
 }
