@@ -77,6 +77,13 @@
     display: inline-block;
     width: 33%;
   }
+
+  /*contact section*/
+
+  #contactSubmit {
+    margin: 25px auto;
+    display: block;
+  }
 }
 
 @media (min-width: 1025px) {
