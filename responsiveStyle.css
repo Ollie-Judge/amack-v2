@@ -161,6 +161,47 @@
     margin: 25px 0;
   }
 
+  .circle,
+  .name,
+  .bigBox,
+  .stars {
+    margin-top: 25px;
+  }
+
+  .circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: 1px solid black;
+    margin: 25px auto;
+  }
+
+  .name {
+    height: 50px;
+    width: 200px;
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 10px;
+  }
+
+  .stars {
+    height: 25px;
+    width: 25px;
+    border-radius: 12.5px;
+    background: orange;
+    border: 1px solid orange;
+    margin: auto;
+    display: inline-block;
+  }
+
+  .bigBox {
+    height: 100px;
+    width: 400px;
+    margin: auto auto 25px;
+    border: 1px solid grey;
+    border-radius: 10px;
+  }
+
   /*contact and Feedback section*/
 
   #contactFeedbackText {
@@ -168,9 +209,21 @@
     width: 40%;
   }
 
+  #contactMainText {
+    text-align: left;
+    margin-top: 50px;
+  }
+
   #contactForm {
     display: inline-block;
     width: 40%;
+  }
+
+  /*Footer section*/
+  .footerItem {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
   }
 }
 @media (min-width: 2100px) {

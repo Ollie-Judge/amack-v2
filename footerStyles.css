@@ -1,5 +1,5 @@
 #footer {
-  background: #24a7c7;
+  background: #68b4fd;
   padding-top: 25px;
   padding-bottom: 25px;
   color: white;
@@ -7,4 +7,22 @@
 
 .footerItem {
   margin: 25px auto;
+}
+
+#footerEmail {
+  text-align: left;
+  padding: 15px;
+  margin: 12.5px auto;
+}
+
+#footerSubmit {
+  padding: 10px 30px;
+  background: orange;
+  border: 1px solid black;
+  color: white;
+  border-radius: 10px;
+}
+
+#footerSlogan {
+  margin-top: 25px;
 }
