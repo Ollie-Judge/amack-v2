@@ -7,6 +7,14 @@
   width: 50%;
 }
 
+#contactMainText {
+  margin: 25px auto;
+}
+
+.contactText {
+  margin: 12.5px auto;
+}
+
 #contactName {
   text-align: left;
   padding: 15px;
