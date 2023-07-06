@@ -9,15 +9,18 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="bannerStyles.css">
     <link rel="stylesheet" href="downloadStyles.css">
-    <link rel="stylesheet" href="diveCenterStyles.css">
+    <link rel="stylesheet" href="bookingStyles.css">
     <link rel="stylesheet" href="elevateStyles.css">
     <link rel="stylesheet" href="footerStyles.css">
+    <link rel="stylesheet" href="responsiveStyle.css">
+    <link rel="stylesheet" href="reviewStyles.css">
+    <link rel="stylesheet" href="contactStyles.css">
     <title>Amack</title>
   </head>
   <body>
     <div id="header">
       <div id="headerTextContainer">
-        <h2 id="title">A'mack</h2>
+        <h1 id="title">A'mack</h1>
         <div id="headerTextContentContainer">
           <p id="locations">Currently: Egypt only</p>
           <h4 id="subtitle">The easiest way to dive</h4>
@@ -36,39 +39,41 @@
     </div>
 
     <div id="bannerContainer">
-      <h4>Experience booking differently</h4>
-      <p>we gather the accociated(?) dive site & center</p>
+      <h2>Experience Booking Differently</h2>
+      <p>We Gather the Accociation Dive Site & Center</p>
 
-      <div class="Container">
-        <div class="imageContainer">
-          <img src="images/choose.png" alt="choose" class="image" />
+      <div id="bannerIconContainer">
+        <div class="Container">
+          <div class="imageContainer">
+            <img src="images/choose.png" alt="choose" class="image" />
+          </div>
+          <div><h5>Pick Preffered Dive Sites</h5></div>
+          <div><p>subtext</p></div>
         </div>
-        <div><h5>Pick Preffered Dive Sites</h5></div>
-        <div><p>subtext</p></div>
-      </div>
 
-      <div class="Container">
-        <div class="imageContainer">
-          <img src="images/snorkel-gear.png" alt="snorkel gear" class="image" />
+        <div class="Container">
+          <div class="imageContainer">
+            <img src="images/snorkel-gear.png" alt="snorkel gear" class="image" />
+          </div>
+          <div><h5>Equipment</h5></div>
+          <div><p>subtext</p></div>
         </div>
-        <div><h5>Equipment</h5></div>
-        <div><p>subtext</p></div>
-      </div>
 
-      <div class="Container">
-        <div class="imageContainer">
-          <img src="images/calendar.png" alt="calendar" class="image" />
+        <div class="Container">
+          <div class="imageContainer">
+            <img src="images/calendar.png" alt="calendar" class="image" />
+          </div>
+          <div><h5>Available full period</h5></div>
+          <div><p>subtext</p></div>
         </div>
-        <div><h5>Available full period</h5></div>
-        <div><p>subtext</p></div>
-      </div>
 
-      <div class="Container">
-        <div class="imageContainer">
-          <img src="images/skill.png" alt="skill" class="image" />
+        <div class="Container">
+          <div class="imageContainer">
+            <img src="images/skill.png" alt="skill" class="image" />
+          </div>
+          <div><h5>Either .... and</h5></div>
+          <div><p>subtext</p></div>
         </div>
-        <div><h5>Either .... and</h5></div>
-        <div><p>subtext</p></div>
       </div>
     </div>
 
@@ -87,52 +92,62 @@
     </div>
 
     <div id="download">
-      <div >
-        <h5>Download and share your experience</h5>
-        <p>Download our app and share your experience</p>
-        <a
-              href="https://apps.apple.com/us/app/google/id284815942?itsct=apps_box_badge&amp;itscg=30200"
+      <div id="downloadContainer">
+        <div id="downloadTextContainer">
+          <h3 id="downloadText1">Download and Share your experience</h3>
+          <p id="downloadText2">Download our app and share your experience</p>
+        </div>
+        <div id="appstoreContainer">
+          <a
+          href="https://apps.apple.com/us/app/google/id284815942?itsct=apps_box_badge&amp;itscg=30200"
+          style="
+            display:inline-block;
+            overflow: hidden;
+            border-radius: 13px;
+            width: 250px;
+            height: 83px;
+          "
+        >
+            <img
+              src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1549929600"
+              alt="Download on the App Store"
               style="
-                display:inline-block;
-                overflow: hidden;
-                border-radius: 13px;
-                width: 250px;
-                height: 83px;
+                border-radius:13px;
+                width:250px;
+                height:83px;
               "
-            >
-              <img
-                src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1549929600"
-                alt="Download on the App Store"
-                style="
-                  border-radius:13px;
-                  width:250px;
-                  height:83px;
-                "
-              ></img>
-      </a>
+            ></img>
+          </a>
+        </div>
 
-      <a
-              href="https://play.google.com/store/apps?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+        <div id="googlestoreContainer">
+          <a
+          href="https://play.google.com/store/apps?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
+          style="
+            display:inline-block;
+            overflow: hidden;
+            border-radius: 13px;
+            width: 250px;
+            height: 83px;
+          "
+        >
+            <img
+              alt="Get it on Google Play"
+              src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
               style="
-                display:inline-block;
-                overflow: hidden;
-                border-radius: 13px;
-                width: 250px;
-                height: 83px;
+                border-radius:13px;
+                width:250px;
+                height:83px;
               "
-            >
-              <img
-                alt="Get it on Google Play"
-                src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
-                style="
-                  border-radius:13px;
-                  width:250px;
-                  height:83px;
-                "
-              ></img>
-              </a>
+            ></img>
+          </a>
+        </div>
       </div>
-      <div >
+
+      <div id="downloadSpacer">
+
+      </div>
+      <div id="phoneImageContainer">
         <img src="images/phoneImage.png" alt="phone" id="phoneImage" />
       </div>
     </div>
@@ -153,14 +168,16 @@
 
     <div id="diveCenterBookingContatiner">
       <div id="diveCenterForm">
+        <input type="text" name="yourName" id="yourName" placeholder="Your name">
         <input type="text" name="diveCenterName" id="diveCenterName" placeholder="Dive center name">
         <input type="date" name="diveCenterDate" id="diveCenterDate" placeholder="Please select a date">
-        <input type="button" id="diveSubmit" value="Submit">
+        <input type="button" id="diveSubmit" value="Confirm Visit">
       </div>
-      <div>
-        <h4>Join the family and add your dive center</h4>
-        <p>To become part of a (?) growing family benefit from our different resources and services and reach out to make (?) future</p>
-        <p>free submission and registration 10% discount off our trading fees for 2 years</p>
+      <div id="diveCenterText">
+        <h3 id="formTitle">Join the Family and add Your Dive Center</h3>
+        <p id="formText">To become part of a (?) growing family benefit from 
+          our different resources and services and reach out to make (?) future
+          free submission and registration 10% discount off our trading fees for 2 years</p>
       </div>
     </div>
 
@@ -184,12 +201,12 @@
 
     <div id="elevateContainer">
       <div id="elevateTextContainer">
-        <h5>Elevate your dive experience</h5>
-        <p>We are elevating your dive experience by reducing (?) dives, 
+        <h3 id="elevateTitle">Elevate Your Dive Experience</h3>
+        <p id="elevateText">We are elevating your dive experience by reducing (?) dives, 
           helping you find the next convenient dive center to your needs 
           and give you access to ourreward sceme, resulting in a hassle free (?)</p>
       </div>
-      <div>
+      <div id="elevateImageContainer">
         <img src="resources/red-diving-storage-box-01-04867-3eKGs.png" id="redBox" alt="red storeage box">
       </div>
     </div>
@@ -213,10 +230,45 @@
     </div>
 
   <div>
-    <h5>Noteable Reviews</h5>
-    <div>div1</div>
-    <div>div2</div>
-    <div>div3</div>
+    <h3>Notable Reviews</h3>
+    <div class="reviews" id="review1">
+      <div class="circle"></div>
+      <div class="name"></div>
+      <div class="starsContainer">
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+      </div>
+      <div class="bigBox"></div>
+    </div>
+
+    <div class="reviews" id="review2">
+      <div class="circle"></div>
+      <div class="name"></div>
+      <div class="starsContainer">
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+      </div>
+      <div class="bigBox"></div>
+    </div>
+
+    <div class="reviews" id="review3">
+      <div class="circle"></div>
+      <div class="name"></div>
+      <div class="starsContainer">
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+        <div class="stars"></div>
+      </div>
+      <div class="bigBox"></div>
+    </div>
   </div>
 
   <div class="videoContainer3">
@@ -233,7 +285,7 @@
 
   <div id="contactFeedbackContainer">
     <div id="contactFeedbackText">
-      <h5>Contact & Feedback</h5>
+      <h3>Contact & FeedBack</h3>
       <p>We need your opinions, to serve you better, 
         let us know of any feature you and we will just add it!(?), 
         incase you have any enquireies we would love to answer all of your questions
@@ -247,7 +299,7 @@
       </p>
       <p>amack.contact@gmail.com</p>
     </div>
-    <div>
+    <div id="contactForm">
       <input type="text" name="" id="" placeholder="name">
       <input type="email" name="" id="" placeholder="email">
       <textarea name="" id="" cols="30" rows="10"></textarea>
@@ -263,22 +315,22 @@
       </div>
 
       <div>
-        <div><a>Contact Us</a></div>
-        <div><a>About Us/Our Vision</a></div>
+        <div class="footerItem"><a>Contact Us</a></div>
+        <div class="footerItem"><a>About Us/Our Vision</a></div>
         <div>
           <input type="email" name="email" id="footerEmail" placeholder="email">
           <input type="submit" value="Submit">
         </div>
       </div>
       <div>
-        <div><a>Privacy</a></div>
-        <div><a>Terms and Conditions</a></div>
-        <div><a>Product the red sea(?)</a></div>
+        <div class="footerItem"><a>Privacy</a></div>
+        <div class="footerItem"><a>Terms and Conditions</a></div>
+        <div class="footerItem"><a>Product the red sea(?)</a></div>
       </div>
       <div>
-        <div><a>Join the family</a></div>
-        <div><a>Add your center</a></div>
-        <div><a>Download android app(?)</a></div>
+        <div class="footerItem"><a>Join the family</a></div>
+        <div class="footerItem"><a>Add your center</a></div>
+        <div class="footerItem"><a>Download android app(?)</a></div>
       </div>
       <div>
         <p>Pick, Plan, Book</p>

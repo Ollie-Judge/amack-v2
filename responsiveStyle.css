@@ -1,7 +1,177 @@
 @media (min-width: 768px) {
+  /*banner*/
+  #bannerContainer {
+    margin: -250px auto auto;
+    z-index: 1;
+  }
+
+  #bannerIconContainer {
+    margin: auto;
+  }
+
+  .Container {
+    display: inline-block;
+    margin: 100px 15px;
+  }
+
+  /*download container*/
+
+  #downloadContainer,
+  #phoneImageContainer {
+    display: inline-block;
+    margin: auto;
+  }
+
+  #downloadSpacer {
+    display: inline-block;
+    width: 1%;
+  }
+
+  #downloadTextContainer {
+    color: white;
+    margin: 25px auto;
+    width: 50%;
+  }
+
+  #appstoreContainer {
+    display: block;
+  }
+
+  #googlestoreContainer {
+    display: block;
+  }
+
+  #downloadText1,
+  #downloadText2 {
+    margin: 15px auto;
+    text-align: left;
+  }
+
+  /*booking section*/
+
+  #diveCenterForm,
+  #diveCenterText {
+    display: inline-block;
+    width: 50%;
+  }
+
+  /*  Elevate Section*/
+
+  #elevateTextContainer,
+  #elevateImageContainer {
+    width: 50%;
+    display: inline-block;
+    margin: auto;
+  }
+
+  #elevateTitle,
+  #elevateText {
+    text-align: left;
+  }
+
+  /*review container*/
+
+  #review1,
+  #review2,
+  #review3 {
+    display: inline-block;
+    width: 33%;
+  }
 }
 
 @media (min-width: 1025px) {
+  /*Header section*/
+
+  #headerBottom {
+    z-index: -1;
+  }
+
+  /*Banner section*/
+
+  #bannerContainer {
+    margin: -550px auto auto;
+    z-index: 1;
+  }
+
+  #bannerIconContainer {
+    margin: auto;
+  }
+
+  .Container {
+    display: inline-block;
+    margin: 100px 75px;
+  }
+
+  .image {
+    height: 100px;
+  }
+
+  /*Download section*/
+
+  #downloadTextContainer {
+    width: 70%;
+  }
+
+  #downloadSpacer {
+    display: inline-block;
+    width: 20%;
+  }
+
+  #phoneImage {
+    height: 350px;
+    width: 225px;
+  }
+  /* booking section*/
+
+  #diveCenterForm {
+    display: inline-block;
+    width: 40%;
+  }
+
+  #diveCenterText {
+    display: inline-block;
+    width: 40%;
+  }
+
+  #formTitle {
+    margin-bottom: 25px;
+  }
+
+  /*Elevate section*/
+  #elevateTextContainer {
+    width: 30%;
+  }
+
+  #elevateImageContainer {
+    margin-top: 150px;
+  }
+  .redBox {
+    height: 350px;
+    width: 350px;
+  }
+
+  #elevateTextContainer,
+  #elevateImageContainer {
+    display: inline-block;
+    margin: auto;
+  }
+
+  /*Reviews section*/
+  .reviews {
+    margin: 25px 0;
+  }
+
+  /*contact and Feedback section*/
+
+  #contactFeedbackText {
+    display: inline-block;
+    width: 40%;
+  }
+
+  #contactForm {
+    display: inline-block;
+    width: 40%;
+  }
 }
 @media (min-width: 2100px) {
 }

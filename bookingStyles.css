@@ -6,14 +6,25 @@
   margin: auto auto 50px;
   width: 80%;
   padding: 25px auto;
-  border: 1px solid black;
+}
+
+#yourName,
+#diveCenterName,
+#diveCenterDate {
+  text-align: center;
+  padding: 10px 15px;
   border-radius: 15px;
+  border: 1px grey solid;
 }
 
-#diveCentername {
-  margin-top: 25px;
+#diveSubmit {
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: white;
+  background: orange;
 }
 
+#yourName,
 #diveCentername,
 #diveCenterDate,
 #diveSubmit {
