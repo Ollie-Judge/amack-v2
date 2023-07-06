@@ -43,4 +43,10 @@
   background: transparent;
   color: white;
   border: 1px white solid;
+  cursor: pointer;
+}
+
+#learnMoreButton:hover {
+  background: white;
+  color: black;
 }

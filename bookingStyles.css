@@ -24,6 +24,11 @@
   background: orange;
 }
 
+#diveSubmit:hover {
+  cursor: pointer;
+  background: #ffb734;
+}
+
 #yourName,
 #diveCentername,
 #diveCenterDate,

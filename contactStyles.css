@@ -44,3 +44,8 @@
   color: white;
   border-radius: 10px;
 }
+
+#contactSubmit:hover {
+  cursor: pointer;
+  background: #ffb734;
+}

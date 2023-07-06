@@ -23,6 +23,11 @@
   border-radius: 10px;
 }
 
+#footerSubmit:hover {
+  cursor: pointer;
+  background: #ffb734;
+}
+
 #footerSlogan {
   margin-top: 25px;
 }
