@@ -154,9 +154,10 @@
     margin-top: 150px;
   }
 
-  .redBox {
+  #redBox {
     height: 550px;
     width: 550px;
+    z-index: -1;
   }
 
   #elevateTextContainer,
