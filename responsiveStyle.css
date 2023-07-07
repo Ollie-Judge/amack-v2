@@ -107,7 +107,7 @@
 
   .Container {
     display: inline-block;
-    margin: 100px 75px;
+    margin: 100px 25px;
   }
 
   .image {
@@ -147,7 +147,7 @@
 
   /*Elevate section*/
   #elevateTextContainer {
-    width: 30%;
+    margin-top: -250px;
   }
 
   #elevateImageContainer {
@@ -164,6 +164,7 @@
   #elevateImageContainer {
     display: inline-block;
     margin: auto;
+    width: 40%;
   }
 
   /*Reviews section*/
@@ -247,6 +248,4 @@
     width: 30%;
     text-align: left;
   }
-}
-@media (min-width: 2100px) {
 }

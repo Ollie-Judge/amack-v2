@@ -3,7 +3,20 @@
   src: local("Nemo"), url(./resources/LostFish-5DOz.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Nemo2";
+  src: local("Nemo2"), url(./resources/FindetNemo-KVxD.ttf) format("truetype");
+}
+
 #title {
   font-family: "Nemo";
-  text-decoration: "underline";
+}
+
+#subtitle {
+  font-family: "Nemo";
+  letter-spacing: 2px;
+}
+
+p {
+  font-weight: 500;
 }
