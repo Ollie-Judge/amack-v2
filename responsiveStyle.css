@@ -249,3 +249,10 @@
     text-align: left;
   }
 }
+
+@media (min-width: 1800px) {
+  #bannerContainer {
+    margin: -690px auto auto;
+    z-index: 1;
+  }
+}
