@@ -76,6 +76,7 @@
   #review3 {
     display: inline-block;
     width: 33%;
+    margin: 50px 50px;
   }
 
   /*contact section*/
@@ -152,9 +153,10 @@
   #elevateImageContainer {
     margin-top: 150px;
   }
+
   .redBox {
-    height: 350px;
-    width: 350px;
+    height: 550px;
+    width: 550px;
   }
 
   #elevateTextContainer,
@@ -164,8 +166,20 @@
   }
 
   /*Reviews section*/
+  #reviewsContainer {
+    margin: 50px auto;
+  }
+
   .reviews {
-    margin: 25px 0;
+    width: 30%;
+    display: inline-block;
+  }
+
+  #review1,
+  #review2,
+  #review3 {
+    margin: 50px 50px;
+    width: 25%;
   }
 
   .circle,
